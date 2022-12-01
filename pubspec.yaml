@@ -1,0 +1,48 @@
+name: movie_project
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  #Splash screen
+  animated_splash_screen: ^1.3.0
+
+  #Internet connection control
+  connectivity_plus: ^2.3.5
+
+  #state_managment
+  get: ^4.6.5
+
+  #Service
+  vexana: ^3.0.1
+
+  #Google
+  json_serializable: ^6.5.3
+  json_annotation: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #Animation
+  animations: ^2.0.3
+  
+  #dart dev
+  build_runner: ^2.2.1
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+  
+    - assets/lottie/
